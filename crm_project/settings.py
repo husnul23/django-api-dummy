@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-9m-s=d2w(b7lu*j5qlkl9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = os.environ.get('api-rocket.herokuapp.com/', '127.0.0.1,localhost').split(',')
+ALLOWED_HOSTS = os.environ.get('.herokuapp.com', '127.0.0.1,localhost').split(',')
 
 
 # Application definition
